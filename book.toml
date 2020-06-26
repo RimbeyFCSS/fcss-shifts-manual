@@ -1,0 +1,6 @@
+[book]
+authors = ["Philippe Nadon"]
+language = "en"
+multilingual = false
+src = "src"
+title = "RFCSS Shifts Manual"
