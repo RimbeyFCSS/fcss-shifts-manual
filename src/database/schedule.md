@@ -2,7 +2,7 @@
 
 You can access the default schedule by clicking on the "Schedule" table.
 
-Here, you can modify the cells to change who normally works these shifts.
+Here, you can modify the cells to change who normally works these shifts. Sometimes a name won't appear in the list, in which case you need to add it for that column. *Make sure the name is typed **exactly**, capitalization and all*. Avoid having any empty cells, if you wish to show that no one is working that shift, enter something like "None".
 
 Week 1 = first week after payroll, Week 2 = second week after payroll.
 
