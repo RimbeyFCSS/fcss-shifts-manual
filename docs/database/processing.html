@@ -148,8 +148,16 @@
                 <div id="content" class="content">
                     <main>
                         <h1><a class="header" href="#processing-requests" id="processing-requests">Processing Requests</a></h1>
+<h2><a class="header" href="#how-to-process-requests" id="how-to-process-requests">How to process requests</a></h2>
 <p>To process unprocessed requests, navigate to the &quot;Requests&quot; table, and switch to the &quot;Unprocessed&quot; view. You can then see all requests which have no yet been given a status.</p>
-<p>To process them, change their status to either &quot;Rejected&quot; or &quot;Accepted&quot; by clicking on the cell for that row. Once you do so, the row should disappear (since it is no longer unprocessed), and it will appear in the &quot;Processed&quot; view.</p>
+<p>Next change their status to either &quot;Rejected&quot; or &quot;Accepted&quot; by clicking on the cell for that row. Once you do so, the row should disappear (since it is no longer unprocessed), and it will appear in the &quot;Processed&quot; view.</p>
+<h2><a class="header" href="#warning-about-processing-requests" id="warning-about-processing-requests">WARNING ABOUT PROCESSING REQUESTS</a></h2>
+<ol>
+<li><em>The person who is offering their shift must previously &quot;own&quot; that shift</em>. This means if Bob regularly works that shift and Joe offers that shift, if that offer is accepted this will result in an error.</li>
+<li><em>Do not accept duplicates</em>. If Bob submits 2 offers for their shift, the database will not be able to tell it is the same request, and will assume Bob is trying to offer the shift twice.</li>
+<li><em>If you change the regular schedule, make sure offer and take requests match with the new schedule</em>. If Joe now permanently works Bob's old shift, make sure that the first offer for those shifts is now Joe. If the requests are now incorrect, reject them and then put in new requests.</li>
+</ol>
+<h2><a class="header" href="#viewing-different-requests" id="viewing-different-requests">Viewing different requests</a></h2>
 <p>If you ever wish to view a certain category of requests, please use the corresponding views, or make your own! For example, if you wish to see <em>all</em> requests, change the view to <em>all</em>. To see more information on views, see the resources linked in the <a href="/database">first page of the Database Component section</a>.</p>
 <p>Filtering and sorting happens automatically, so as soon as you change the information in a request (such as accepting it), it may cause the request to disappear from the view.</p>
 
